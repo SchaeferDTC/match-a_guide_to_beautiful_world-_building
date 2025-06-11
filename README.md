@@ -1,35 +1,28 @@
-# 📦 Mein Projektname
+#  Creating a new Gazebo world or creating new objects and adding them to a existing Gazebo world
 
-Kurze Beschreibung deines Projekts. Was macht es? Warum ist es nützlich?
+This is a cool tutorial!! - marvin was here.
 
-![Projektvorschau](./images/preview.png) <!-- Platzhalter-Bild. Lege z. B. eine PNG in ./images ab -->
+![Example world](./images/preview.png) <!-- cool picture of a fancy gazebo world -->
 
-## 🚀 Features
+##  Workflow
 
-- ✨ **Feature 1** – *Kurze Beschreibung* <!-- Icon: ✨ -->
-- 🛠️ **Feature 2** – *Kurze Beschreibung* <!-- Icon: 🛠️ -->
-- ⚡ **Feature 3** – *Kurze Beschreibung* <!-- Icon: ⚡ -->
-- 📊 **Feature 4** – *Kurze Beschreibung* <!-- Icon: 📊 -->
-- 🔒 **Feature 5** – *Kurze Beschreibung* <!-- Icon: 🔒 -->
+1.  Create a .STL in Inventor or Solidworks for precise meassurements  
+2.  Import the .STL in Blender and add textures
+3.  Export from blender into .dae 
+4.  Create a Gazebo world 
+5.  Add the object 
 
-## 🧭 Getting Started
+##  Inventor
+Create object,
+Use mm.
 
-1. 📁 Repository klonen  
-2. 🧱 Abhängigkeiten installieren  
-3. ⚙️ Projekt starten  
-4. 🧪 Tests ausführen  
-5. 🚀 Deployment vorbereiten
+##  Blender
 
-## 🖼️ Vorschau
-
-![Screenshot oder Diagramm](https://via.placeholder.com/600x300.png?text=Projektvorschau)  
-<!-- Alternativ lokal: ![Vorschau](./images/screenshot.png) -->
-
-## 📄 Lizenz
-
-Dieses Projekt steht unter der [MIT-Lizenz](LICENSE).
+Step 1 - Switch Blender to mm as defaul unit
+     click on Scene, open the Units tab and change Length from meters to milimeters
+     click on File-> Defaults and save as the new startup file
 
 ## ✍️ Autor
 
-Dein Name – [@deinhandle](https://github.com/deinhandle)
+me!
 
