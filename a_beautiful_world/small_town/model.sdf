@@ -6,7 +6,7 @@
       <visual name="visual">
         <geometry>
           <mesh>
-            <uri>model://simple_model/meshes/box.dae</uri>
+            <uri>model://small_town/meshes/SmallHome.dae</uri>
           </mesh>
         </geometry>
       </visual>
