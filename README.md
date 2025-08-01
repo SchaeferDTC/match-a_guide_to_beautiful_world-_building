@@ -60,7 +60,7 @@
 ### Step 5 – Apply the Texture as Material
 
 1. In the **right properties panel**, select the **Material** tab.
-2. Click the **yellow dot** next to **Base Color** and choose **Image Texture**.
+2. Click the **yellow dot** next to **Base Color** and choose **Image Texture** `I`.
 3. Click the **image icon** and select your previously loaded texture.
 4. If the preview doesn't update, try changing the shading mode in the top right (e.g., to **Material Preview**).
 
