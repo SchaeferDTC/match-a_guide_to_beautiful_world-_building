@@ -64,10 +64,9 @@
 3. Click the **image icon** and select your previously loaded texture.
 4. If the preview doesn't update, try changing the shading mode in the top right (e.g., to **Material Preview**).
 
-### Final Step – Export as `.dae`
+### Final Step – Export as `.dae` :dove_of_peace:
 
 - Go to `File → Export → Collada (.dae)`  
 - Use the **legacy** export option if available.
-:dove_of_peace: :dove_of_peace: :dove_of_peace: :dove_of_peace:  :dove_of_peace: :dove_of_peace: :dove_of_peace: :dove_of_peace: :dove_of_peace: :dove_of_peace: :dove_of_peace: :dove_of_peace: :dove_of_peace: :dove_of_peace: :dove_of_peace: :dove_of_peace: :dove_of_peace: :dove_of_peace: :dove_of_peace: :dove_of_peace: :dove_of_peace::dove_of_peace: :dove_of_peace::dove_of_peace: :dove_of_peace: :dove_of_peace: :dove_of_peace: :dove_of_peace: :dove_of_peace: :dove_of_peace: :dove_of_peace: :dove_of_peace: :dove_of_peace: :dove_of_peace:
 https://www.youtube.com/watch?v=1YCzHmPI7dM
 decent tutorial
