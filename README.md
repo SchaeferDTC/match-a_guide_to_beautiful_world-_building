@@ -1,47 +1,73 @@
-#  Creating a new Gazebo world - 
-# or creating new objects and adding them to an existing Gazebo world
+# Creating a New Gazebo World  
+## Or: Creating New Objects and Adding Them to an Existing Gazebo World
 
-![Example world](./images/preview.png) <!-- cool picture of a fancy gazebo world -->
+![Example world](./images/preview.png)
+<!-- Cool picture of a fancy Gazebo world -->
 
-##  Workflow
+---
 
-1.  Create a .obj in Inventor for precise meassurements and simple coloring
-2.  Import the .obj file in Blender you may add textures ( .png)
-3.  Export from blender into .dae 
-4.  Create a Gazebo world 
-5.  Add the object 
+## 🛠️ Workflow Overview
 
-##  Inventor
-Create object,
-Use mm.
-Export as .obj. This format supports colors. You can either use Inventors materials and colors or just use diffrent colors for diffrent texture groups to replace later on in Blender with the final texture.
+1. Create a `.obj` file in **Autodesk Inventor** for accurate measurements and basic coloring.
+2. Import the `.obj` into **Blender**; add textures (e.g., `.png` files) if needed.
+3. Export the object from Blender as a `.dae` file.
+4. Create a **Gazebo world**.
+5. Add the exported object to your Gazebo world.
 
-##  Blender
+---
 
-#### Step 0 - Switch Blender to mm as defaul unit 
-     click on Scene, open the Units tab and change Length from meters to milimeters 
-     click on File-> Defaults and save as the new startup file 
-#### Step 1 - Import the CAD-Modell from Inventor
-     File -> Import .obj
-#### Step 2 - Textures and Colors
-     Click on UV Editing, Blender should switch to splitscreen.
-     In the top left corner of the right screen select edit mode and face select.
-     The default mash is mad of triangles, but quads tend to be more useable.
-     Select 2 or more triangles and group them up to a quad with the hotkey ALT + J .
-     Select all faces and press U and select the smart wrapping option. This proved to be the least distored option.
-#### Step 3 - Opening the Texture.png
-     Left half, top middle, Click open and select your image
-#### Step 4 - Arange your unwrapped mesh 
-     Use the Move and Rotate options, Hotkey "3" lets you select Faces, "2" switches to edges and "1" lets you select vortexes.
-     Arange the unwrapped mesh. Good luck, you will need it.
-#### Step 5 - Use the picture as a material color
-     In the option bar to the right select material
-     Click on the yellow dot next to Base Color and Press "I" for Immage Texture.
-     Now Click on the Picture symbol and select youre used Texture.
-     On a good day Blender wont crash.
-     To Update the Preview select a diffrent shading option in the top right corner.  
-### Last Step - Export as .daae
-     File -> Export .dae (legacy)
+## 🔧 Autodesk Inventor
+
+- Design your object using **millimeters (mm)**.
+- Export the model as an `.obj` file — this format supports basic coloring.
+- You can apply colors directly using Inventor’s materials or use different colors for texture groups that will later be textured in Blender.
+
+---
+
+## 🧊 Blender
+
+### Step 0 – Set Blender to Use Millimeters by Default
+
+1. Click on the **Scene** tab.
+2. Open the **Units** section and change **Length** from *meters* to *millimeters*.
+3. Save as default: `File → Defaults → Save Startup File`.
+
+### Step 1 – Import the CAD Model from Inventor
+
+- Go to `File → Import → Wavefront (.obj)` and select your exported file.
+
+### Step 2 – Apply Textures and Colors
+
+1. Switch to **UV Editing** mode — Blender will split the screen.
+2. In the right panel:
+   - Switch to **Edit Mode** and enable **Face Select**.
+   - If needed, convert triangle meshes to quads with `Alt + J`.
+   - Select all faces, press `U`, and choose **Smart UV Project**. This method tends to produce the least distortion.
+
+### Step 3 – Open the Texture Image
+
+- In the **left half** of the screen, near the top center, click **Open** and load your texture image (e.g., `texture.png`).
+
+### Step 4 – Arrange the Unwrapped Mesh
+
+- Use **Move** and **Rotate** tools to position your mesh over the texture.
+- Hotkeys:
+  - `1` – Vertex select  
+  - `2` – Edge select  
+  - `3` – Face select  
+- Arrange the mesh as needed — patience is key here!
+
+### Step 5 – Apply the Texture as Material
+
+1. In the **right properties panel**, select the **Material** tab.
+2. Click the **yellow dot** next to **Base Color** and choose **Image Texture**.
+3. Click the **image icon** and select your previously loaded texture.
+4. If the preview doesn't update, try changing the shading mode in the top right (e.g., to **Material Preview**).
+
+### Final Step – Export as `.dae`
+
+- Go to `File → Export → Collada (.dae)`  
+- Use the **legacy** export option if available.
 
 https://www.youtube.com/watch?v=1YCzHmPI7dM
 decent tutorial
