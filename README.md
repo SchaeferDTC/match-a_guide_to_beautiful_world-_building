@@ -69,6 +69,7 @@
 - Go to `File → Export → Collada (.dae)`  
 - Use the **legacy** export option if available.
 
+---
 ## 🏗️ Gazebo
 
 ### File System Structure
