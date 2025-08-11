@@ -68,5 +68,47 @@
 
 - Go to `File → Export → Collada (.dae)`  
 - Use the **legacy** export option if available.
-https://www.youtube.com/watch?v=1YCzHmPI7dM
-decent tutorial
+
+## 🏗️ Gazebo
+
+### File System Structure
+
+Use the provided **template** as a starting point. It includes:
+
+- A world file: `template_world.sdf`
+- A model folder: `template/`, containing:
+  - `materials/` – for textures and materials
+  - `meshes/` – for 3D model files (e.g., `.dae`)
+  - `model.config` – defines metadata and links to `model.sdf`
+  - `model.sdf` – defines the model’s structure and references the mesh file
+
+### How It Works
+
+1. **`model.config`**
+   - Describes the model (name, version, author, etc.)
+   - Points to `model.sdf`
+
+2. **`model.sdf`**
+   - References the `.dae` file inside the `meshes/` folder
+   - Defines links, visuals, and collisions
+
+3. **`template_world.sdf`**
+   - Loads the model from the `template/` folder
+   - The `<include>` tag must correctly reference the model name
+
+### Replacing the Example Model
+
+To use your own `.dae` file:
+
+1. Replace the existing `.dae` file inside the `meshes/` folder.
+2. Update the file name in `model.sdf` to match your new `.dae` file.
+3. Ensure that the model folder name (`template/` or your custom name) matches the one used in `template_world.sdf`.
+4. Confirm that all paths are correct and consistent across:
+   - `model.sdf`  
+   - `model.config`  
+   - `template_world.sdf`
+
+
+
+
+
