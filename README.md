@@ -97,7 +97,7 @@ Use the provided **template** as a starting point. It includes:
    - Loads the model from the `template/` folder
    - The `<include>` tag must correctly reference the model name
 
-### Replacing the Example Model
+### Using the Template
 
 To use your own `.dae` file:
 
@@ -108,6 +108,8 @@ To use your own `.dae` file:
    - `model.sdf`  
    - `model.config`  
    - `template_world.sdf`
+5. Adding the file path to your ~/.bashrc file so gazebo can find the models
+`bexport GAZEBO_MODEL_PATH=[...]/models:$GAZEBO_MODEL_PATH`
 
 
 
