@@ -109,7 +109,7 @@ To use your own `.dae` file:
    - `model.config`  
    - `template_world.sdf`
 5. Adding the file path to your ~/.bashrc file so gazebo can find the models
-`bexport GAZEBO_MODEL_PATH=[...]/models:$GAZEBO_MODEL_PATH`
+`export GAZEBO_MODEL_PATH=[...]/models:$GAZEBO_MODEL_PATH`
 
 
 
